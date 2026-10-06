@@ -9,6 +9,8 @@ Framework-agnostic visual regression testing for **Playwright** and **Cypress** 
 No external service, no screenshots leaving your network. The comparator is
 [`pixelmatch`](https://github.com/mapbox/pixelmatch) (pure JS, antialiasing-aware).
 
+![visual-review in action](demo/visual-review-demo.gif)
+
 ## Why this exists
 
 Our Cypress visual tests had two settings: pass, or fail the build because a
